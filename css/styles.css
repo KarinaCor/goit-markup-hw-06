@@ -741,7 +741,7 @@ body {
 .contact-form-checkbox-wrapper {
     display: block;
     margin-bottom: 8px;
-    
+
 }
 
 .contact-form-field-desc {
@@ -758,7 +758,7 @@ body {
 
 .contact-form-input-wrapper {
     position: relative;
-    
+
 }
 
 .contact-form-input {
@@ -781,8 +781,8 @@ body {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .contact-form-input:focus+.contact-form-input-icon {
@@ -811,7 +811,7 @@ body {
 }
 
 .contact-form-message:focus {
-border-color: #4D5AE5;
+    border-color: #4D5AE5;
 }
 
 
@@ -834,7 +834,7 @@ border-color: #4D5AE5;
     position: absolute;
 }
 
-.contact-form-checkbox:focus + .checkbox-descr {
+.contact-form-checkbox:focus+.checkbox-descr {
     border-color: #404bbf;
     border: none;
     fill: #ffffff;
@@ -984,46 +984,74 @@ border-color: #4D5AE5;
     pointer-events: none;
 }
 
+.additional-footer-container {
+    margin-left: 80px;
+    
+}
+
+.additional-footer-par {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.additional-footer-form {
+    display: flex;
+}
+
+.additional-footer-label {
+    margin-right: 24px;
+}
+
+.additional-footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 12px;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.additional-footer-input::placeholder {
+    color: #ffffff;
+}
+
+.additional-footer-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Roboto' sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border: none;
+border-radius: 4px;
+background: #4D5AE5;
+padding: 8px 24px;
 
 
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.additional-footer-svg {
+    margin-left: 16px;
+}
