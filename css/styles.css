@@ -765,7 +765,7 @@ body {
     width: 100%;
     height: 40px;
     background-color: transparent;
-    border: 1px solid rgba(46, 47, 66, 0.2);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
     outline: transparent;
@@ -834,7 +834,7 @@ body {
     position: absolute;
 }
 
-.contact-form-checkbox:focus+.contact-form-checkbox-wrapper > .checkbox-descr > .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-own-checkbox {
     border-color: #404bbf;
     border: none;
     fill: #ffffff;
@@ -869,12 +869,12 @@ body {
 .checkbox-descr {
     width: 16px;
     height: 16px;
-    border: 1px solid #2e2f42;
     border-radius: 2px;
     align-items: center;
     justify-content: center;
     fill: transparent;
     display: inline-flex;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .contact-form-own-checkbox {
