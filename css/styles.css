@@ -834,7 +834,7 @@ body {
     position: absolute;
 }
 
-.contact-form-checkbox:checked + .checkbox-descr > .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-own-checkbox {
     border-color: #404bbf;
     border: none;
     fill: #ffffff;
