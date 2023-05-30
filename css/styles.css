@@ -835,6 +835,7 @@ body {
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .checkbox-descr {
+    border-color: #404bbf;
     border: none;
     fill: #ffffff;
     background-color: #404bbf;
